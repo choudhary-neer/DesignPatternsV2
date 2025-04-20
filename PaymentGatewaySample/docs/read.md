@@ -1,5 +1,19 @@
 ﻿# 🏗️ Combining Factory and Strategy Patterns in C#
 
+# 💳 Factory + Strategy Pattern in C#
+
+This repository demonstrates how to combine the **Factory** and **Strategy** design patterns using **C#** and **Dependency Injection** — applied to a real-world scenario: a **Payment Gateway** system.
+
+## 📌 Why This Matters
+
+During real-world development, two of the most common design challenges are:
+
+- Avoiding messy `switch` or `if-else` logic based on types.
+- Writing code that is scalable, testable, and follows SOLID principles.
+
+This example shows how combining **Strategy Pattern** (for behavior) with **Factory Pattern** (for instantiation) can solve both — cleanly.
+
+
 ## Why Use Both?
 
 **Factory** and **Strategy** can (and often should) go hand in hand.  
