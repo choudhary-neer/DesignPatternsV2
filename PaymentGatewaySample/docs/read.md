@@ -46,7 +46,7 @@ Imagine you're building an **e-commerce checkout**.
 - You have multiple payment strategies: `CreditCard`, `PayPal`, `ApplePay`, etc.
 - The system receives a payment request with a `paymentType` string.
 
-![Payment Strategy Diagram](payment-strategy.png)
+![Payment Strategy Diagram](../docs/payment-strategy.jpg)
 
 ### ✅ Here's how you combine the two:
 
