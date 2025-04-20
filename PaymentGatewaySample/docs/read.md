@@ -34,10 +34,8 @@ Using the **Strategy pattern** is one of the best ways to avoid long `switch` or
 
 ## 🧩 When to Combine Them
 
-Here’s a good practice scenario:
-
-- ✅ **Use Strategy** to encapsulate behaviors like payment methods, notification sending, etc.
-- ✅ **Use a Factory** (or **DI container**) to create or select the right strategy at runtime.
+- ✅ You need to **encapsulate behavior** (e.g., different payment methods)
+- ✅ You want to **select the right behavior** at runtime (e.g., based on input)
 
 ---
 
